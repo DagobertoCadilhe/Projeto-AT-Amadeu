@@ -11,7 +11,7 @@ const CryptoPrices = (props) => {
       try {
         const response = await axios.get(props.url, {
           headers: {
-            'X-CoinAPI-Key': "60CB82C1-1151-4395-BBAA-3DE52CC86C8A"
+            'X-CoinAPI-Key': import.meta.env.VITE_COINAPI_KEY,
           },
         });
         setData(response.data);

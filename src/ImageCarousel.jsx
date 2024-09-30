@@ -11,8 +11,8 @@ import image6 from './assets/53349212926_cd02092fb4_k.jpg';
 
 
 const images = [
-  image1,
   image2,
+  image1,
   image3,
   image4,
   image5,
