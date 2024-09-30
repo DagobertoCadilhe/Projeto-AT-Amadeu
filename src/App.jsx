@@ -38,7 +38,7 @@ export default function App() {
       setContent("loggedIn");
       incrementProgress();
     } else {
-      setContent2("Username or Password Error");
+      setContent2("Erro de Usuário ou Senha ");
     }
   };
 
